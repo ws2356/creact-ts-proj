@@ -1,0 +1,21 @@
+{
+  "name": "youtube-dld",
+  "version": "1.0.0",
+  "description": "youtube-dl daemon written in node.js",
+  "main": "index.js",
+  "repository": "https://github.com/ws2356/youtube-dld",
+  "author": "wansong",
+  "license": "MIT",
+  "dependencies": {
+    "amqplib": "^0.5.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "typescript": "^3.8.2",
+    "@typescript-eslint/eslint-plugin": "^2.0.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "@typescript-eslint/parser": "^2.0.0",
+    "eslint": "@^5.16.0 || ^6.1.0"
+  }
+}
