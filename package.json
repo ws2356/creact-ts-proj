@@ -1,21 +1,25 @@
 {
-  "name": "youtube-dld",
+  "name": "main",
   "version": "1.0.0",
-  "description": "youtube-dl daemon written in node.js",
-  "main": "index.js",
-  "repository": "https://github.com/ws2356/youtube-dld",
+  "description": "ts proj",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "node_modules/.bin/tsc --project tsconfig.json",
+    "entry-point": "node dist/index.js"
+  },
+  "repository": "github.com:ws2356/creact-ts-proj.git",
   "author": "wansong",
   "license": "MIT",
   "dependencies": {
-    "amqplib": "^0.5.5",
-    "express": "^4.17.1"
+    "lodash": "^4.17.15"
   },
   "devDependencies": {
-    "typescript": "^3.8.2",
+    "@types/node": "^13.7.4",
     "@typescript-eslint/eslint-plugin": "^2.0.0",
+    "@typescript-eslint/parser": "^2.0.0",
+    "eslint": "@^5.16.0 || ^6.1.0",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.18.2",
-    "@typescript-eslint/parser": "^2.0.0",
-    "eslint": "@^5.16.0 || ^6.1.0"
+    "typescript": "^3.8.2"
   }
 }

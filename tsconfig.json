@@ -1,4 +1,10 @@
 {
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
   "compilerOptions": {
     "target": "ES2017",
     "module": "commonjs",
@@ -36,7 +42,7 @@
     // "noFallthroughCasesInSwitch": true,    /* Report errors for fallthrough cases in switch statement. */
 
     "moduleResolution": "node",
-    // "baseUrl": "./",                       /* Base directory to resolve non-absolute module names. */
+    "baseUrl": "./",                       /* Base directory to resolve non-absolute module names. */
     "paths": {},
     // "rootDirs": [],                        /* List of root folders whose combined content represents the structure of the project at runtime. */
     // "typeRoots": [],                       /* List of folders to include type definitions from. */
