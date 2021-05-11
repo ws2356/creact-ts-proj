@@ -11,7 +11,7 @@
   "author": "wansong",
   "license": "MIT",
   "dependencies": {
-    "lodash": "^4.17.15"
+    "lodash": "^4.17.21"
   },
   "devDependencies": {
     "@types/node": "^13.7.4",
